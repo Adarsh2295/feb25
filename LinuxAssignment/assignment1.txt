@@ -1,0 +1,14 @@
+
+cdac@Adarsh:~$ pwd    { to see the present working directory }
+/home/cdac
+
+cdac@Adarsh:~$ ls    { to see list of the content of folder }
+LinuxAssignment  file.txt
+
+cdac@Adarsh:~$ cd file.txt/   { By "cd" command we change directory from cdac to file.text }
+
+cdac@Adarsh:~/file.txt$  mkdir LinuxAssignment  {"mkdir" to make new directory}
+
+cdac@Adarsh:~/file.txt$ pwd
+/home/cdac/file.txt
+cdac@Adarsh:~/file.txt$
