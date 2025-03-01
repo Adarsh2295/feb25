@@ -1,0 +1,160 @@
+What will the following commands do? 
+ 
+ echo "Hello, World!"  
+
+	This command will print the whats present in the double 
+	quotes( Hello World )
+
+ name="Productive"  
+
+	 This command will assign a value to variable that is name
+
+ touch file.txt  
+
+	 touch command will create an empty file.
+
+ ls -a  
+	 this command lists the contents of a current directory
+
+ rm file.txt
+	
+	 this command is used to delete a file or directory (file name file,txt)
+   
+ cp file1.txt file2.txt 
+	
+	  this command copies the contents of file1.txt, and make 
+	  file named file2.txt and pastes the content in it.
+
+ mv file.txt /path/to/directory/  
+
+	 this command mobe file.txt to path given
+
+ chmod 755 script.sh  
+
+	  The above command gives read, write and execute permissions to 
+	  the owner and read and execute permissions to group and other 
+          users read and excute to script.sh file.
+
+ grep "pattern" file.txt  
+
+	  Above command searches for the string “pattern” from the
+          file named file.txt.
+  
+ kill PID 
+
+	  This command will terminate the process whose PID is mentioned 
+	  in the command
+
+ mkdir mydir && cd mydir && touch file.txt && echo "Hello, World!" > file.txt && cat file.txt 
+
+	  mkdir makes directory named mydir then cd changes directory to mkdir
+	  then touch command create file file.txt echo display "hello world"
+	  to terminal then redirect operator ">" redirect that echos output
+	  to file.txt and cat shows file content as "Hello, World!" 
+
+ ls -l | grep ".txt"  
+ 	
+	  ls -l is used to display the contents of current directory with 
+          details and grep “.txt” command is used to display all the files 
+          conating ".txt" in their name.
+
+ cat file1.txt file2.txt | sort | uniq 
+
+	  First cat command is used to display the contents of file1.txt 
+          and file2.txt then sort command is used to perform alphanumeric 
+	  sort then uniq command is use to display only unique lines 
+          from the result
+
+ ls -l | grep "^d"
+
+	   ls -l command lists the files and directories in long format 
+           then grep "^d" command filters the output to show only lines 
+           which starts with "d" 
+
+	   
+ grep -r "pattern" /path/to/directory/  
+
+	   grep -r command is used to recursively search for 
+           given pattern “pattern” in the given path
+
+ cat file1.txt file2.txt | sort | uniq –d 
+
+	    cat command is used to display content of both the file then
+	    sort command sort alphanumerically then uniq command shows 
+	    only unique content
+
+ chmod 644 file.txt 
+		
+	   The above command assigns read and write permissions 
+	   to owner of the file file.txt and read permission to group 
+           users and other users the same read only
+
+ cp -r source_directory destination_directory 
+
+	  The above command is used to copy the source directory to 
+	  destination directory
+
+ find /path/to/search -name "*.txt" 
+
+	  this command is used for searching the files and 
+	  directories.	 
+	
+	
+ chmod u+x file.txt 
+
+	  This command is used to give execution permissions  
+	  to the user(owner) of the file
+
+ echo $PATH 
+
+	 this command shows directories where executable programs 
+	 are located.
+----------------------------------------------------------------------------------------------------------
+
+
+Identify True or False 
+ 
+1 ls is used to list files and directories in a directory. – True 
+ 
+2 mv is used to move files and directories. – True  
+ 
+3 cd is used to copy files and directories. – False
+ 
+ 
+4 pwd stands for "print working directory" and displays the 
+current directory. – True 
+ 
+5 grep is used to search for patterns in files. – True 
+ 
+6 chmod 755 file.txt gives read, write, and execute permissions 
+to the owner, and read and execute permissions to group and 
+others. – True 
+ 
+7 mkdir -p directory1/directory2 creates nested directories, 
+creating directory2 inside directory1 if directory1 does not 
+exist. – True 
+ 
+8 rm -rf file.txt deletes a file forcefully without confirmation. – 
+False
+
+-----------------------------------------------------------------------------------
+
+1 chmodx is used to change file permissions. 
+	chmod
+ 
+2 cpy is used to copy files and directories. 
+	cp 
+ 
+3 mkfile is used to create a new file. 
+	 touch command to create a new file
+	mkdir 
+ 	command is create a new directory. 
+ 
+4 catx is used to concatenate files. 
+	cat . 
+ 
+5 rn is used to rename files. 
+	mv 
+ 
+
+
